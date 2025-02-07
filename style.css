@@ -1,13 +1,23 @@
 .main{
-
-    background-color: #eb0606;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 50%;
+    color: blue;
+    background-color: aqua;
+   padding: 30px;
     text-align: center;
-    font-size: 50px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    animation: animate 2s infinite;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 2px;
+a{
+    text-decoration: none;
+}
+
+}
+h1{
+    width: 300px;
+    margin: auto;
+    height: 300px;
+    overflow: hidden;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 60px;
+    border:4px solid red;
 }
