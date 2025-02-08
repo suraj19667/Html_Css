@@ -23,19 +23,29 @@
 }
 .C{
     color: red;
+    text-shadow: -5px 5px 6px rgb(5, 5, 5);
 }
 .y{
     color: green;
+    text-shadow: -4px 3px 6px rgb(229, 12, 12);
 }
 .b{
-    color: blue;
+    color: rgb(213, 18, 18);
+    text-shadow: -5px 2px 5px rgb(5, 5, 5);
 }
 .r{
     color: yellow;
+    text-shadow: -5px 2px 5px rgb(5, 5, 5);
 }
-.o{
+.O{
     color: orange;
+    text-shadow: -3px 2px 5px rgb(232, 59, 2);
 }
 .m{
     color: purple;
+    text-shadow: -7px 2px 5px rgb(5, 5, 5);
+}
+#cybrom{
+
+    font-size: 70px;
 }
