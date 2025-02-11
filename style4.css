@@ -5,12 +5,12 @@
     
 }
 .div2{
+    color: red;
     height: 200px;
     width: 200px;
-    border: 2px solid black;
 
 }
-.div3{color: red;
+.div3{
     height: 200px;
     width: 200px;
     border: 2px solid black;
