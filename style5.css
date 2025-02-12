@@ -1,0 +1,42 @@
+.div1{
+    border: 1px solid black;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    gap: 10px;
+    
+}
+.logo{
+    justify-items: start;
+    justify-content:space-around;
+    gap: 10px;
+}
+.login{
+    justify-content:space-around;
+    align-items: flex-end;
+}
+.a1{
+    list-style: none;
+    text-decoration: none;
+}
+.a2{
+    list-style: none;
+    text-decoration: none;
+
+}
+.a3{
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
