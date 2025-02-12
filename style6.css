@@ -1,5 +1,5 @@
 #navbar{
-
+    margin-top: 2px;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -8,7 +8,7 @@
     background-color: rgb(253, 241, 124);
     border: 1px solid black;
     height: 70px;
-    box-shadow: 30px;
+   box-shadow: inset 0px 0px 15px 9px rgba(249, 21, 21, 0.5);
 
 
 }
@@ -24,11 +24,13 @@
     display: flex;
     list-style: none;
     gap: 20px;
+
     
 }
 #navbar ul li a{
     text-decoration: none;
     font-size: 20px;
+    color: rgb(5, 106, 69);
 }
 #navbar button{
     padding: 10px;
@@ -40,3 +42,18 @@
     border: 1px solid black;
 
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* * -> universal selector */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+/*   
+  <header>  nav */
