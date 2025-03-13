@@ -1,0 +1,10 @@
+.buttom{
+    color: red;
+    border: 1px solid black;
+    size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
