@@ -1,14 +1,27 @@
-function suraj(){
+// function suraj(){
 
-//    let num1= window.prompt("Enter First Number:");
-//     let num2=window.prompt("Enter Second Number:");
-//     let sum=Number(num1)+Number(num2);
-//     window.alert("The sum of two numbers is: "+sum);
+// //    let num1= window.prompt("Enter First Number:");
+// //     let num2=window.prompt("Enter Second Number:");
+// //     let sum=Number(num1)+Number(num2);
+// //     window.alert("The sum of two numbers is: "+sum);
 
-    //parseInt(), parseFloat() , Number
-    let num1= parseInt(prompt("Enter First Number:"));
-    let num2= parseInt(prompt("Enter Second Number:"));
-    let ans= num1+num2;
-    alert("The sum of two numbers is: "+ans);
+//     //parseInt(), parseFloat() , Number
+//     let num1= parseInt(prompt("Enter First Number:"));
+//     let num2= parseInt(prompt("Enter Second Number:"));
+//     let ans= num1+num2;
+//     alert("The sum of two numbers is: "+ans);
+// }
+// suraj()
+
+function firstfunction(){
+    alert("This is a first function");
 }
-suraj()
+firstfunction();
+// function sec2(){
+//     alert("This is a second function");
+// }
+// sec2()
+// function sec3(){
+//     alert("This is a third function");
+// }
+// sec3()
