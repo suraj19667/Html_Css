@@ -13,15 +13,20 @@
 // }
 // suraj()
 
-function firstfunction(){
+function firstFunction(){
+
     alert("This is a first function");
 }
-firstfunction();
-// function sec2(){
-//     alert("This is a second function");
-// }
-// sec2()
-// function sec3(){
-//     alert("This is a third function");
-// }
-// sec3()
+    firstFunction();
+
+function secondFunction(){
+
+    alert("This is a second function");
+}
+secondFunction();
+
+function thirdFunction(){
+
+    alert("This is a third function");
+}
+thirdFunction();
