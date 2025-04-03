@@ -11,5 +11,7 @@ let string="Cybrom"
 // document.writeln(toUpperCase);
 // toLowerCase=st.toLowerCase();
 // document.writeln(toLowerCase);
-string.charCodeAt(2);
-document.writeln(string.charCodeAt(3)); 
+// string.charCodeAt(2);
+// document.writeln(string.charCodeAt(3)); 
+
+document.writeln(string.slice(2,4));
