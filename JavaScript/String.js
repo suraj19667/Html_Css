@@ -48,4 +48,4 @@ let a=' Hello i am ${name}'
 //1st use supports single quote ('') and Double ("")
 //2nd use supports multi line string
 //3rd use support html tags
-//4th use 
+//4th use variable 
