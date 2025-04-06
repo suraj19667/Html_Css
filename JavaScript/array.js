@@ -1,8 +1,8 @@
-let Fruits=["Apple","Mango","Banana","Grapes"]  //array
+// let Fruits=["Apple","Mango","Banana","Grapes"]  //array
 
-Fruits.splice(1,0,"Orange"); //where to add, how many to delete, what to add
+// Fruits.splice(1,0,"Orange"); //where to add, how many to delete, what to add
 
-console.log(Fruits.slice(1,3));
+// console.log(Fruits.slice(1,3));
 
 // console.log(Fruits[2]); //accessing array
 // console.log(Fruits.length); //length of array
@@ -21,3 +21,9 @@ console.log(Fruits.slice(1,3));
 
 // let arr4=arr1.concat(arr2,arr3)
 // console.log(arr4)
+
+let arr=[2,6,3,7,1,8,4,5]
+// console.log(arr.sort()); 
+// console.log(arr.reverse()); //reverse the array
+console.log(arr.sort((a,b)=>a-b)); //ascending order
+console.log(arr.sort((a,b)=>b-a));
