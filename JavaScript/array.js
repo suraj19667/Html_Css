@@ -15,12 +15,12 @@
 // Fruits.shift();
 // console.log(Fruits);
 
-// let arr1=["ram","shyam","sita","gita"]
-// let arr2=["apple","banana","mango"]
-// let arr3=["ramesh","aman"]
+let arr1=["ram","shyam","sita","gita"]
+let arr2=["apple","banana","mango"]
+let arr3=["ramesh","aman"]
 
-// let arr4=arr1.concat(arr2,arr3)
-// console.log(arr4)
+let arr4=arr1.concat(arr2,arr3)
+console.log(arr4)
 
 let arr=[2,6,3,7,1,8,4,5]
 // console.log(arr.sort()); 
