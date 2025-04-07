@@ -15,14 +15,20 @@
 
 function firstFunction(){
 
-   let a= prompt("Addition of 3 and 4");
+//    let a= prompt("Addition of 3 and 4");
 
-   if(a==7){
-       alert("Correct");
-   }
-    else{
-         alert("Incorrect");
-    }
+//    if(a==7){
+//        alert("Correct");
+//    }
+//     else{
+//          alert("Incorrect");
+
+//     }
+
+//enter any same count the words 
+    let st=prompt("Enter Your Name:");  
+    
+    alert("The length of your name is: "+st.length);
     
 }
     firstFunction();
