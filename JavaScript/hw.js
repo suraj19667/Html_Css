@@ -13,6 +13,9 @@
 // }
 // suraj()
 
+// document.getElementById('text)
+// document.getElementById('text')
+// document.querySelector('#text')
 function firstFunction(){
 
 //    let a= prompt("Addition of 3 and 4");
@@ -26,9 +29,15 @@ function firstFunction(){
 //     }
 
 //enter any same count the words 
-    let st=prompt("Enter Your Name:");  
+    // let st=prompt("Enter Your Name:");  
     
-    alert("The length of your name is: "+st.length);
+    // alert("The length of your name is: "+st.length);
+
+   let show= document.querySelector('#text')
+
+   show.innerHTML="Hello World";
+
+   show.style.color="red";
     
 }
     firstFunction();
