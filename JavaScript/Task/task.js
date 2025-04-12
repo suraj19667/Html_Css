@@ -15,14 +15,37 @@
 //     text.style.display="block";
 // }
 
+let count=0;
+   let inc=()=>{
+    
+   let Show= document.querySelector("#show")
+  
+    count++;
+    Show.innerHTML=count;
 
-    let count = 0;
+   }
 
-    const button = document.getElementById('clickButton');
-    const countDisplay = document.getElementById('countDisplay');
+   let dec=()=>{
+    let Show= document.querySelector("#show")
+    count--;
+    Show.innerHTML=count;
+    if(count<0){
+        count=0;
+        Show.innerHTML=count;
+    }
 
-    button.addEventListener('click', function() {
-        count++;
-        countDisplay.textContent = 'Count: ' + count;
-    });
+   }
+    let reset=()=>{
+     let Show= document.querySelector("#show")
+     count=0;
+     Show.innerHTML=count;
+    
+    }
+
+    let showalert=()=>{
+        
+        let name=document.querySelector("#name").value;
+        alert(name);
+
+    }
 
