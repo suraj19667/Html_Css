@@ -8,30 +8,41 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
+    <div class="form-container">
+        <div class="form-header">
+            <h1>Create Account</h1>
+        </div>
+
     
-    <form id="form">
+    <form >
 
-        <div id="div">
-
+        <div class="form-group">
         <p id="errname"></p>
-        Enter Name: <input class="inp1" type="text" id="name"><br><br>
-
-        <p id="errnumber"></p>
-        Enter Number: <input class="inp1" type="text" id="number"><br><br>
-
-        <p id="erremail"></p>
-        Enter Email: <input class="inp1" type="text" id="email"><br><br>
-
-        <p id="errpass"></p>
-        Enter Password: <input class="inp1" type="text" id="pass"><br><br>
-
-        <p id="errcpass"></p>
-        Enter Confirm Password: <input class="inp1" type="text" id="cpass"><br><br>
-
-        <input class="submit" type="button" id="submit" value="Login" onclick="return val()"><br><br>
+        Enter Name: <input class="form-control" type="text" id="name"><br><br>
     </div>
 
+        <div class="form-group">
+        <p id="errnumber"></p>
+        Enter Number: <input class="form-control" type="text" id="number"><br><br>
+        </div>
 
+        <div class="form-group">
+        <p id="erremail"></p>
+        Enter Email: <input class="form-control" type="text" id="email"><br><br>
+        </div>
+
+
+        <div class="form-group">
+        <p id="errpass"></p>
+        Enter Password: <input class="form-control" type="text" id="pass"><br><br>
+        </div>
+
+        <div class="form-group">
+        <p id="errcpass"></p>
+        Enter Confirm Password: <input class="form-control" type="text" id="cpass"><br><br>
+        </div>
+        <input class="btn" type="submit" id="submit" value="Login" onclick="return val()"><br><br>
+    
 
     </form>
 

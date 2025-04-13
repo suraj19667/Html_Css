@@ -35,6 +35,7 @@ let val=()=>{
    //if ans is number return false
    else if(inputnumber.length!=10){
       errnumber.innerHTML="Please enter 10 digit !";
+      errnumber.style.color="red"
       return false
    }
    
