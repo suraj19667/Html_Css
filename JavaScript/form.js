@@ -66,6 +66,8 @@ let val=()=>{
    }
    else if(inputpass!=inputcpass){
       errcpass.innerHTML="Password not matched!"
+      errcpass.style.color="red"
+      return false
    }
 
 }
