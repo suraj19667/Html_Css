@@ -79,3 +79,4 @@ let num=[1,2,3,4,5,6,7,8,9,67,56];
 num.forEach((e)=>{
     console.log(e%2==0);
 })
+
