@@ -73,7 +73,7 @@ let num=[1,2,3,4,5,6,7,8,9,67,56];
 // })
 // console.log(newarr1);
 
-//=========== forEach method =============
+//=========== forEach method ==
 //this are not return anything
 
 num.forEach((e)=>{
