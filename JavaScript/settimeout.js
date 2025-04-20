@@ -28,11 +28,9 @@ let okk=()=>{
    inteval= setInterval(()=>{
         console.log(i)
         i++;
+        
     },2000)
 }
 let stopp=()=>{
     clearInterval(inteval);
 }
-
-
-// clearInterval(set-interval-name);
