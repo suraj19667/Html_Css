@@ -16,3 +16,5 @@ setInterval(() => {
     let showTime=document.querySelector("#showing")
     showTime.innerHTML=`${CurDate.getHours()}:${CurDate.getMinutes()}:${CurDate.getSeconds()}`
 },1000)
+
+// console.log(Math.random(Math.random()*10));

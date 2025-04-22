@@ -1,0 +1,1 @@
+Console.log(Math.round(Math.random()*1000));
