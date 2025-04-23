@@ -6,10 +6,11 @@ let fruits={
 }
 //Array of Object
 
-let UseData=[{
+let UserData=[{
     name:"Suraj",
     age:21,
     city:"Bhopal"
+
 },
 {
     name:"Amit",
@@ -21,3 +22,16 @@ let UseData=[{
     age:34,
     city:"Delhi"
 }]
+
+let datashow=document.querySelector("#datashow")
+
+
+UserData.map( (e)=>{
+    datashow.innerHTML+=`
+    <tr>
+    <td>  ${e.name}</td>
+    <td> ${e.age}</td>
+    <td> ${e.city}</td>
+    </tr>
+    `
+})
