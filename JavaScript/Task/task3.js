@@ -1,5 +1,0 @@
-function suraj(){
-   
-
-}
-suraj()
